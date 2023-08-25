@@ -20,7 +20,7 @@
 - Linux
 - Web Scraping
 
-## Project Interests:
+## Areas of Interest:
 
 - Working with data in some way would be interesting to me
 - I love anything to do with games/strategy
