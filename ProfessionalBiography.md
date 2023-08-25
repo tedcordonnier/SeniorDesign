@@ -1,25 +1,24 @@
-# Project Summary
+# Professional Biography
 
-**Customer:** [insert]
+**Name:** Ted Cordonnier
 
-**Project name:** [insert]
+**Email:** cordontd@mail.uc.edu
 
-**Project goal:** Define the high level goal of the project.
+## Co-op Experience (number indicates Co-op term):
 
-## Objectives:
+- 1: EEP learning about data science, python, data visualization, etc.
+- 2-3: Emerson in Sidney, OH. Worked with SQL and ASP.NET. Created and updated applications relating to the storing and use of the data collected from the manufacturing process of compressors, which is what the plant made.
+- 4-5: Siemens in Milford, OH. Used Python and Siemens API's to automate the updating of vApp templates. These templates are used to test Siemens Digital Industries main product, NX.
 
-- Break out the project goal into more specific objectives
-- [insert]
-- [insert]
+## Languages/Skills:
 
-## Constraints:
-
-- Define contraints like budget, time, abilities, regulations, etc.
-- [insert]
-- [insert]
-- [insert]
-- [insert]
-- [insert]
+- ___Python___
+- ___SQL___
+- Excel
+- C++, Java
+- ASP.NET
+- Linux
+- Web Scraping
 
 ## Risks:
 
