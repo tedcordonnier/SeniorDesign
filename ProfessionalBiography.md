@@ -20,22 +20,10 @@
 - Linux
 - Web Scraping
 
-## Risks:
+## Project Interests:
 
-- Equipment delays [**SIGNIFICANT RISK**]
-- Over budget [MODEST RISK]
-- Use ‘Significant’ or ‘Modest’ as risk levels and bold Significant risks.
-
-## Assumptions:
-
-- List of assumtions outside the scope of the project.
-- Example: Contractor will provide tools and materials
-- [insert]
-
-## Project Scope
-
-## In Scope:
-
-- Define actions within the scope of the project.
-- [insert]
-- [insert]
+- Working with data in some way would be interesting to me
+- I love anything to do with games/strategy
+- Most experienced in Python or SQL
+- Open to many ideas, still need to explore what areas I am interested in
+- I am considering working with AI/ML with this data, but have no experience
