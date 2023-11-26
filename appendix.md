@@ -21,7 +21,7 @@ Overall, we have had good conversations and understanding about where I want to 
 the specific implementation of how I am doing things, and we will both be able to learn new things and create a solid project.
 
 
+![Hours Completed](https://github.com/tedcordonnier/SeniorDesign/blob/main/appendix_image.png)
 
-![Hours Completed](appendix_image.png?raw=true)
 
 
