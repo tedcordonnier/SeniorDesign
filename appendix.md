@@ -21,29 +21,7 @@ Overall, we have had good conversations and understanding about where I want to 
 the specific implementation of how I am doing things, and we will both be able to learn new things and create a solid project.
 
 
-Hours Completed:
 
-1 - Assignment 1
-3 - Assignment 2
-1 - Assignment 3
-4 - Assignment 4
-2 - Assignment 5
-4 - Assignment 6
-2 - Assignment 7
-5 - Assignment 8
-5 - Assignment 9
-5 - Assignment 10
-
-4 - Advisor Meetings
-
-Project Work:
-
-4 - Find appropriate data
-1 - Download and get this data in .csv format
-2 - Combine data if necessary from different sources
-4 - Clean up data, only keep what is necessary
-1 - Remove null values in data
+![Hours Completed](appendix_image.png)
 
 
-Total: 48 Hours
-    
