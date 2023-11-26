@@ -15,7 +15,7 @@ Cincinnati Crime Data that has been cleaned up, analyzed, and visualized for the
 * [Powerpoint Slide Show](Fall_Presentation.pptx)
 * [Self-Assessment Essay](Individual_Capstone_Assesment.docx)
 * [Professional Bio](Individual_Capstone_Assesment.docx)
-* [Budget]()
-* [Appendix]()
+* [Budget](budget.md)
+* [Appendix](appendix.md)
 
 
