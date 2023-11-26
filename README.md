@@ -11,11 +11,11 @@ Cincinnati Crime Data that has been cleaned up, analyzed, and visualized for the
 * Tasks and Timeline
   * [Project Tasks](Task_Lists.md)
   * [Project Timeline and Effort Matrix](Milestones_Timeline_Effort_Matrix.xlsx)
-* [Project Constraints](Project_Constraints.docx)
+* [Project Constraints](Project_Constraints.pdf)
 * [Powerpoint Slide Show](Fall_Presentation.pptx)
-* [Self-Assessment Essay](Individual_Capstone_Assesment.docx)
-* [Professional Bio](Individual_Capstone_Assesment.docx)
-* No Budget
+* [Self-Assessment Essay](Individual_Capstone_Assesment.pdf)
+* [Professional Bio](ProfessionalBiography.md)
+* [Budget](budget.md)
 * [Appendix](appendix.md)
 
 
