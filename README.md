@@ -1,3 +1,7 @@
+`Team Members: Ted Cordonnier`
+
+`Advisor: Seokki Lee`
+
 # Cincinnati Crime Data Analysis and Visualization
 Cincinnati Crime Data that has been cleaned up, analyzed, and visualized for the purpose of finding insightful conclusions
 
