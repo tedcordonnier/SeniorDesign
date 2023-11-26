@@ -2,17 +2,16 @@
 Cincinnati Crime Data that has been cleaned up, analyzed, and visualized for the purpose of finding insightful conclusions
 
 # Table of Contents
-* [Project Description](assignments/Project-Description.md)
-* [User Stories](assignments/User_Stories.md) and [Design Diagrams](assignments/Design_Diagram.pdf)
+* [Project Description](assignments/ProjectDescription.md)
+* [User Stories](assignments/User_Stories_and_Design_Diagrams.pdf)
 * Tasks and Timeline
-  * [Project Tasks](assignments/Tasklist.md)
-  * [Project Timeline](assignments/milestone_list.md)
-  * [Effort Matrix](assignments/Assignment9_Tables.ods)
-* [ABET Concerns Essay](assignments/Project_Constraints_Essay.md)
-* [Powerpoint Slide Show](assignments/Assignment_8.pptx)
-* [Chad's Self-Assessment Essay](assignments/chad_assignment_essay.md) and [Josh's Self-Assessment Essay](assignments/hale_assignment_essay.md)
-* [Chad's Professional Bio](biographies/lape.md) and [Josh's Professional Bio](biographies/hale.md)
-* [Budget](assignments/budget.md)
-* [Appendix](appendix.md)
+  * [Project Tasks](assignments/Task_Lists.md)
+  * [Project Timeline and Effort Matrix](assignments/Milestones_Timeline_Effort Matrix.xlsx)
+* [Project Constraints](assignments/Project_Constraints.docx)
+* [Powerpoint Slide Show](assignments/Fall_Presentation.pptx)
+* [Self-Assessment Essay](assignments/Individual_Capstone_Assesment.docx)
+* [Professional Bio](Individual_Capstone_Assesment.docx)
+* [Budget]()
+* [Appendix]()
 
 
