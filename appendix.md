@@ -25,3 +25,6 @@ the specific implementation of how I am doing things, and we will both be able t
 
 
 
+Citing:
+
+Cincinnati Crime Data: https://data.cincinnati-oh.gov/safety/PDI-Police-Data-Initiative-Crime-Incidents/k59e-2pvf
