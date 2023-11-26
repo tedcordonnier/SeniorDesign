@@ -22,6 +22,6 @@ the specific implementation of how I am doing things, and we will both be able t
 
 
 
-![Hours Completed](appendix_image.png)
+![Hours Completed](appendix_image.png?raw=true)
 
 
