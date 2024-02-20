@@ -2,8 +2,8 @@
 
 `Advisor: Seokki Lee`
 
-# Cincinnati Crime Data Analysis and Visualization
-Cincinnati Crime Data that has been cleaned up, analyzed, and visualized for the purpose of finding insightful conclusions
+# Automated Correlation Analysis
+Program Purpose: Find Correlation between target column and all other columns. Automates statistical tests of correlation as well as allows any analyst to find association between all types of variables without extensive statistical experience.
 
 # Table of Contents
 * [Project Description](ProjectDescription.md)
