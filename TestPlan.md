@@ -4,7 +4,7 @@
 
 ## Part I. Description of Overall Test Plan
 
-The test plan for the Automated Correlation Analysis project encompasses a comprehensive approach to ensure the program's functionality, performance, and reliability. Testing strategies include unit tests to validate the correctness of correlation computations, integration tests to ensure correct interaction between the program's components, and performance tests to assess the tool with varying datasets. Emphasis is placed on ensuring the program accurately calculates correlations between the target column and all other columns in a CSV file, handles different data types, and provides meaningful error messages for invalid inputs.
+The test plan for the Automated Correlation Analysis project encompasses a comprehensive approach to ensure the program's functionality, performance, and reliability. Testing strategies include unit tests to validate the correctness of correlation computations, tests to ensure correct interaction between the program's components, and performance tests to assess the tool with varying datasets. Emphasis is placed on ensuring the program accurately calculates correlations between the target column and all other columns in a CSV file, handles different data types, and provides meaningful error messages for invalid inputs.
 
 ## Part II. Test Case Descriptions
 
