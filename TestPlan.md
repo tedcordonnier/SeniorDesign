@@ -1,6 +1,6 @@
 # Test Plan
 
-## Project: Automatic Correlation Calculator for CSV Data
+## Project: Statistical Correlation Analysis and Automation Program
 
 ## Part I. Description of Overall Test Plan
 
