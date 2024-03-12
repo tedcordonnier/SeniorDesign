@@ -57,12 +57,12 @@ Note that some of these categories may be inappropriate for your project and may
 **Functional/Performance**: Functional  
 **Unit/Integration**: Unit
 
-#### TC04 - Non-numeric Data Handling
+#### TC04 - Automated Classification of Data
 **Test Case ID**: TC04  
-**Purpose**: Validate handling of non-numeric data.  
-**Description**: Ensure the program correctly ignores or processes non-numeric columns based on configuration.  
+**Purpose**: Validate classification of data using Python Libraires
+**Description**: Ensure the program correctly classifies data into it's correct data type, this is done through Python Dataframes data type classification
 **Inputs**: CSV file containing a mix of numeric and non-numeric columns.  
-**Outputs**: Non-numeric columns are correctly excluded from the analysis or appropriately processed.  
+**Outputs**: Correct classification of data into it's data types, such as object, int, float, etc.
 **Normal/Abnormal/Boundary**: Normal  
 **Blackbox/Whitebox**: Blackbox  
 **Functional/Performance**: Functional  
@@ -112,16 +112,16 @@ Note that some of these categories may be inappropriate for your project and may
 **Functional/Performance**: Functional  
 **Unit/Integration**: Unit
 
-#### TC09 - Categorical Data Correlation
-**Test Case ID**: TC09  
-**Purpose**: Validate correct correlation calculation with categorical data (optional, if applicable).  
-**Description**: Test the program's ability to handle categorical data via encoding or other methods before calculating correlations.  
-**Inputs**: CSV file with categorical data.  
-**Outputs**: Accurately calculated correlation coefficients considering the encoded or transformed categorical data.  
+#### TC09 - Program Settings Effectiveness
+**Test Case ID**: TC14  
+**Purpose**: Assess the impact and effectiveness of user-configurable program settings on correlation analysis outcomes.  
+**Description**: Evaluate how the adjustment of settings like `bins`, `max_unique_values_threshold`, `showCrosstab`, `showBinnedCrosstab`, and `showGroupMeans` affects the calculation and presentation of correlation analyses. This test will involve running the program with different settings configurations to observe the changes in output, especially focusing on the handling of categorical data, the applicability of chi-square tests, and the utility of ANOVA where applicable.  
+**Inputs**: Multiple CSV files with varying characteristics to test each setting's impact under different conditions.  
+**Outputs**: Varied depending on settings, expected to accurately reflect the setting change
 **Normal/Abnormal/Boundary**: Normal  
 **Blackbox/Whitebox**: Blackbox  
 **Functional/Performance**: Functional  
-**Unit/Integration**: Unit
+**Unit/Integration**: Integration
 
 #### TC10 - Usability and Output Clarity
 **Test Case ID**: TC10  
@@ -167,18 +167,7 @@ Note that some of these categories may be inappropriate for your project and may
 **Functional/Performance**: Functional  
 **Unit/Integration**: Unit
 
-#### TC14 - Program Settings Effectiveness
-**Test Case ID**: TC14  
-**Purpose**: Assess the impact and effectiveness of user-configurable program settings on correlation analysis outcomes.  
-**Description**: Evaluate how the adjustment of settings like `bins`, `max_unique_values_threshold`, `showCrosstab`, `showBinnedCrosstab`, and `showGroupMeans` affects the calculation and presentation of correlation analyses. This test will involve running the program with different settings configurations to observe the changes in output, especially focusing on the handling of categorical data, the applicability of chi-square tests, and the utility of ANOVA where applicable.  
-**Inputs**: Multiple CSV files with varying characteristics to test each setting's impact under different conditions.  
-**Outputs**: Varied depending on settings, expected to accurately reflect the setting change
-**Normal/Abnormal/Boundary**: Normal  
-**Blackbox/Whitebox**: Blackbox  
-**Functional/Performance**: Functional  
-**Unit/Integration**: Integration
-
-#### TC15 - Output Categories Validation
+#### TC14 - Output Categories Validation
 **Test Case ID**: TC15  
 **Purpose**: Ensure output arrays accurately reflect the correct categories for categorical data.  
 **Description**: This test verifies that the program correctly identifies and outputs the categories for categorical variables, especially after any internal processing such as binning or when applying chi-square tests. The test will compare the categories identified by the program against the actual categories present in the input data to ensure accuracy and completeness.  
@@ -189,7 +178,7 @@ Note that some of these categories may be inappropriate for your project and may
 **Functional/Performance**: Functional  
 **Unit/Integration**: Unit
 
-#### TC16 - Comparison with Reputable Statistics Tool
+#### TC15 - Comparison with Reputable Statistics Tool
 **Test Case ID**: TC16  
 **Purpose**: Compare program's correlation analysis results with those from a reputable statistics tool, such as SPSS, to validate accuracy.  
 **Description**: This test involves running correlation analyses using the program on various datasets and comparing the results with those obtained from SPSS or another reputable statistics tool. The focus is on ensuring that the correlation coefficients, p-values, and any other statistical measures provided by the program are consistent with those produced by the established tool, within a reasonable margin of error.  
@@ -201,20 +190,22 @@ Note that some of these categories may be inappropriate for your project and may
 **Unit/Integration**: Integration
 
 
-
-
-
 | Test ID  | Normal/Abnormal | Blackbox/Whitebox | Functional/Performance | Unit/Integration |
 |----------|-----------------|-------------------|------------------------|------------------|
-| TC01     | Normal          | Black Box         | Functional             | Integration      |
-| TC02     | Normal          | White Box         | Functional             | Integration      |
-| TC03     | Normal          | Black Box         | Functional             | Integration      |
-| TC04     | Normal          | Black Box         | Functional             | Integration      |
-| TC05     | Abnormal        | Black Box         | Functional             | Integration      |
-| TC06     | Normal          | White Box         | Functional             | Integration      |
-| TC07     | Normal          | Black Box         | Functional             | Integration             |
-| TC08     | Normal          | Black Box         | Functional             | Integration      |
-| TC09     | Normal          | Black Box         | Functional             | Integration             |
-| TC10     | Normal          | Black Box         | Functional             | Integration             |
-| TC11     | Normal          | Black Box         | Functional             | Integration      |
-| TC12     | Normal          | Black Box         | Functional             | Integration             |
+| TC01     | Normal          | White Box         | Functional             | Unit             |
+| TC02     | Boundary        | Black Box         | Performance            | Integration      |
+| TC03     | Abnormal        | Black Box         | Functional             | Unit             |
+| TC04     | Normal          | Black Box         | Functional             | Unit             |
+| TC05     | Normal          | White Box         | Performance            | Integration      |
+| TC06     | Boundary        | Black Box         | Functional             | Unit             |
+| TC07     | Normal          | Black Box         | Functional             | Unit             |
+| TC08     | Abnormal        | Black Box         | Functional             | Unit             |
+| TC09     | Normal          | Black Box         | Functional             | Integration      |
+| TC10     | Normal          | Black Box         | Functional             | Integration      |
+| TC11     | Normal          | Black Box         | Functional             | Unit             |
+| TC12     | Normal          | Black Box         | Functional             | Unit             |
+| TC13     | Normal          | Black Box         | Functional             | Integration      |
+| TC14     | Normal          | Black Box         | Functional             | Unit             |
+| TC15     | Normal          | Black Box         | Functional             | Integration      |
+
+
