@@ -17,7 +17,7 @@ The settings are for advanced users who want to add additional information to th
 
 This program will use that file, as well as the target variable and the given settings, to compute the correlaton of the target to each column. 
 
-<INSERT PICTURE OF FROM CSV TO END OF SETTINGS>
+![image](https://github.com/tedcordonnier/SeniorDesign/assets/83316488/ec81eb77-a94c-4164-8458-9f4295877aa8)
 
 
 Now, run the file inside of the Jupyter Notebook. 
@@ -31,8 +31,10 @@ The correlatoin is divided into 5 main categories. These are large, medium, smal
 The way I provide the final correlation to the user had to be done this way becuase of the nature of these tests. 
 Unless I created a formula that could standardise the results of each of the different tests used into one score, this is the solution that had to be used, which is placing each of the different results into buckets. Which bucket they go into is determined by which test was used and the resulting number of the test. 
 
-<INSERT PICTURE OF A TEST RESULT>
+![image](https://github.com/tedcordonnier/SeniorDesign/assets/83316488/1455a99d-867d-4426-9c09-f5feafaccaed)
 
-These results are then shown at the end of the program.	
 
-<INSERT PICTURE OF RESULTS>
+These results are then shown at the end of the program.	These reuslts appear in a format similar to the picture given, with listing the target, and then listing the column names that fall into each of the buckets.
+
+![image](https://github.com/tedcordonnier/SeniorDesign/assets/83316488/4e7beeda-4119-46af-be3d-80d6e51d732a)
+
