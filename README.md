@@ -2,6 +2,8 @@
 
 `Advisor: Seokki Lee`
 
+`Project Name: Automated Correlation Analysis`
+
 # Statistical Correlation Analysis and Automation Program
 Program Purpose: Find Correlation between target column and all other columns. Automates statistical tests of correlation as well as allows any analyst to find association between all types of variables without extensive statistical experience.
 
