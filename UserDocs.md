@@ -42,3 +42,21 @@ These results are then shown at the end of the program.	These reuslts appear in 
 
 ![image](https://github.com/tedcordonnier/SeniorDesign/assets/83316488/4e7beeda-4119-46af-be3d-80d6e51d732a)
 
+
+
+## FAQ (Frequently Asked Questions)
+
+
+#### Which datasets can I use this program on?
+
+Many datasets work, however certain datasets should be avoided to be used inside of this program. Datasets that should be avoided
+
+Datasets that have have columns that would not be useful to find correlation over.
+  A good example would be things such as addresses or names, these are things that correlation cannot be found between due to the limit of statistics
+Datasets that have many of it columns having all unique values
+
+
+#### Performance of the program when the number of rows or columns is large?
+
+I have tested with 20+ different columns and datasets with tens of thousands of columns without much slowdown. The program generally takes a couple of seconds to run. There are little to no issues with using a large dataset.
+
