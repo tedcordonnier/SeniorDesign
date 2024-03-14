@@ -36,6 +36,18 @@ Unless I created a formula that could standardise the results of each of the dif
 
 ![image](https://github.com/tedcordonnier/SeniorDesign/assets/83316488/1455a99d-867d-4426-9c09-f5feafaccaed)
 
+The results of each test can be a bit difficult to interpret for the average user. The results also differ from test to test with there being different output variables. To explain each test:
+
+But first, a commonality between all the tests is the p-value. The p-value represents how likely you are to have found a particular set of observations if the variables are independent. In other words, it is the likelyhood that the result has occured by chance, instead of due to the correlation between the variables. We want this value to be below 0.05, which is the most common threshold that is used. If it is below this threshold, we can say that the results of the test (showing correlation or not), is valid.
+
+Chi^2 Test of Correlation: Categorical vs Categorical. Creates a crosstab (table that counts amount of each data in each group) of the categorical data, and then compares the results to the expected results if the variables were independent. Then the chi2 value is calculated, along with the critical value (cv) from the chart of the chi2 distribution. If chi2 is greater than the critical value, we can move on to using the test called Cramer's V. Chi2 value does not give us the degree of correlation, so we must use Cramer's V. The result of Cramer's V then allows us to put the column from target vs. column into buckets, based on the value. v > 0.5 = Large, v > 0.3 = Medium, v > 0.1 = Small, v < 0.1 = None.
+
+Spearmans/Pearsons Test of Correlation: Numerical vs Numerical. Spearman's correlation determines the strength and direction of the monotonic relationship between your two variables. The result of Spearmans is a value between -1 and 1, which determines the strength and direction of correlation. x > 0.5 = Large Positive, x > 0.3 = Medium Positive, x > 0.1 = Small Positive, -0.1 < x < 0.1 = None, x < -0.1 = Small Negative, x < -0.3 = Medium Negative, x < -0.5 = Large Negative.
+
+ANOVA: Categorical vs Numerical. This test uses expected means of each group, and checks to see if there is a ignificant difference between these group means. x > 0.14 = Large, x > 0.06 = Medium, x > 0.01 = Small x < 0.01 = None.
+
+Binned Chi^2 Test of Correlation: Numerical vs Categorical. Same as Chi^2 except the numerical values are put into bins so that chi^2 can be used.
+
 ## Final Result
 
 These results are then shown at the end of the program.	These reuslts appear in a format similar to the picture given, with listing the target, and then listing the column names that fall into each of the buckets.
