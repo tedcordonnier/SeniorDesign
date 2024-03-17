@@ -1,0 +1,243 @@
+Limitations of existing tools
+----------------------------------------------
+Tableau
+	Dependence on quality data
+	Limited complex statistics
+	Very quickly make simple visualizations
+	User friendly
+DBMS
+	DBMS more efficient than csv for large data
+	More options for querying data than in tableau
+	Cleaning up data is easier in DBMS (filtering, sorting) 
+Mapbox
+	Really large datasets (not sure if ours is large enough)
+	Need technical skill to use
+
+How can I use DBMS more wisely in a way that others have not done yet
+
+Possible of using all types of data and not just Cincinnati Crime data and then 
+doing something with that
+
+
+
+Ideas:
+
+Fully make it so that SQL is not being used and go with what is originally planned
+I could then go more into the AI prediction of crime and things such as that
+Analyze age, time, location, etc.
+Investigate which variables are the most important when it comes to predicting crime
+Predicted crime for 2024/2025 or something like that and then do the visualizations off of that
+Can consider combining with other data such as weather, police spending per area, geographical data (does height, Lat, long effect crime, etc.
+Detect unusual patterns using statistics or machine learning to show emerging threats  
+
+
+Resource Allocation Model: Develop a model that helps law enforcement allocate resources more efficiently based on crime data analysis. This could involve predictive models to anticipate high-demand areas and times for police presence.
+
+
+
+Confirm limitations of tableau and this project
+
+Using any type of Data and putting them into a DBMS
+
+Recommendations by computing correlations, list top x columns as a recommendations
+Mean of squares, correlations, built in functions of MySQL to compute correlations
+
+Check to see whether they have recommendations of explanations
+
+Recommend highly correlated variables for example inside Westwood
+
+Showcase initial version of project
+
+There appears to be little or no way to automatically analyze this data very well at all
+Density has to use tooltip
+
+Continue with Tableau
+Compute best variables 
+Machine Learning
+
+
+
+------------------------------------------------
+Compute Best Variables, Recommendation/Explanation
+
+
+There are tools that can perform statistical analysis such as Python and R and its libraries such as NumPy, SciPy, etc.
+Other tools such as tableau can provide data visualization where you can plot out variables and find the most useful
+
+This tool will be for data that you do not have extensive knowledge over and don't know which variables should be looked into. Different statistical tests are applied to the dataset and then the results of these tests can be displayed as well as used to rank the variables by importance. 
+
+This tool will be made in python with its statistics libraries.
+
+
+Linear Regression, R^2 of this Regression
+Residual Sum of Squares (RSS)
+
+Principal Component Analysis / Exploratory Factor Analysis - Determine relationship between large number of variables and group them. Can have a hidden variable that is actually affecting multiple observed variables
+
+
+Analysis of Variance (ANOVA)
+Utilize other statistical measures like t-tests, chi-square tests, etc., where appropriate
+datatab.com
+
+
+Correlation Analysis:
+Pearson Correlation: Used for continuous variables to measure the linear relationship between them.
+Spearman's Rank Correlation: Useful when dealing with ordinal data or non-linear relationships.
+	Helps in identifying variables that have a strong relationship with the outcome variable.
+	
+Regression Analysis:
+Predict a variable based on one or more other variables
+Measures the influence of one or more variables on another variable, either positively or negatively
+
+
+Get .csv file
+Use python program to take this csv data and put it into a data frame
+Automatically determine the type of data that it is (discrete/continuous/ordinal/nominal)  
+Knowing the data types of each column, we can then calculate the necessary statistics for each pair of columns
+	This would just determine the correlation between all variables, but that is not necessarily far from what we want
+	I think that this is the place where hypothesis tests come in, and we can say things like if the person was age 31-40 and had a weapon, what are the predications of how violent the crime would be
+We can then rank the results of each of these combinations of rows, and then display these to the user 
+
+
+Discrete - Regression
+
+Nominal - Chi Squared, first have to create crosstab then do chi squared on that
+
+
+One thing that I still don't fully understand would be if you can do statistics on the COUNT of the number of rows
+Principal Component Analysis (PCA): PCA is a technique used to emphasize variation and bring out strong patterns in a dataset. It can help in understanding which variables contribute most to the variance in your data.
+Descriptive Statistics:  mean, median, mode, range, and standard deviation for each variable can be shown/used in rankings if it is deemed needed
+
+
+You could determine how much all other variables affect a chosen variable. This can be done in a method that is similar to what is described above and can be used as a starting point for this program that determines which variables are the most impactful.
+
+
+Based off the results of a query, recommend new variables/queries
+
+My Previous Idea: What are the most interesting queries that the user can write
+
+Go through each variable and provide a list of recommendations for each one
+
+
+Other Possibilities at the End:
+	Explanations
+	Visualizations
+	GUI
+	Multiple variables - ANOVA
+
+Print out the rank as well as the correlations and p values at the end of each batch of tests 
+
+https://pub.towardsai.net/covariance-matrix-visualization-using-seaborns-heatmap-plot-64332b6c90c5
+	
+Something that you can talk about for your Database class similar to pi2 : https://www.jetbrains.com/datalore/
+
+There is no correlation with nominal vs numerical
+https://www.crispanalytics.io/post/what-type-of-correlation-is-appropriate-for-nominal-and-continuous-data
+
+
+
+If there is correlation in obj vs nominal, provide summary statistics below 
+
+
+Determine a way to show how little or much the variables are correlated
+
+Two examples: object and numeric as target attribute, explain how the target variable is related to other variables and how much they are related
+
+Formula to generalize the correlation between all different tests, research 
+
+Get a good understanding of what all of the values mean, x2, x, f
+
+
+Allow the user to have an option to have summary statistics or graphics in order to understand certain columns that don’t make sense to find correlation
+
+I am getting more and more confident that the tests that I am choosing to use are the correct tests, due to looking up so much information
+
+-------------------------------------------------------------------------
+
+# subject to change this answer
+x^2 - The chi-squared statistic measures the degree of association between each feature and the target. A higher chi-squared value indicates a stronger association 
+
+x - Pearsons or Spearmans directly measure the strength of a correlation, a value of 1 is that these variables are directly proportional. As one variable increases, the other variable increases in a perfectly linear manner.
+
+f - If the calculated F-value is greater than or equal to the critical value, the null hypothesis (that all group means are equal) is rejected. 
+This suggests that there is a statistically significant difference between the group means
+
+
+Post-Hoc analysis:  
+
+cramers v for chi2 relationship strength, from 0 - 1
+
+There cannot be negative correlation because we are talking about categories and not numbers
+Cramer's V of 0.1 indicates a small effect, 0.3 a medium effect, and 0.5 or higher a large effect
+1 indicates a perfect association. This means that the value of one variable completely predicts the value of the other variable.
+
+Eta^2 for ANOVA relationship strength, from 0 - 1
+Eta^2  of 0.01 indicates a small effect, 0.06 a medium effect, and 0.14 or higher a large effect
+
+Cramer's V and Pearsons Coefficient are symmetric, but Eta^2 is not 
+
+If you find a significant effect in ANOVA, post hoc tests like Tukey's HSD, Bonferroni, or Dunn's test (for Kruskal-Wallis) will tell you which groups differ from each other.
+
+ANOVA only tells us if there are statistically significant differences between groups
+If you find a significant difference using ANOVA or t-test, you might want to measure the effect size (the strength of the relationship) using Eta-squared (η²) in the case of ANOVA 
+
+If ANOVA test is true, find the means by group, and total count for each group
+
+
+https://medium.com/@Kavya2099/optimizing-performance-selectkbest-for-efficient-feature-selection-in-machine-learning-3b635905ed48
+
+Sklearn.SelectKBest uses tests such as chi2, correlation, f test. Can choose multiple variables and then it tests them one at a time. Choose a test and then it ranks them based on the results of the test, in the case of chi2 it orders/ranks by chi2 number.
+
+This project is getting similar to feature selection for machine learning. Doing what I described above is already done by that function, but I am adding, the actual values, a description of the values as well as going beyond and doing a Cramer's V test.
+
+P values are not in SelectKBest because the test statistic 
+
+Lets also look at this project from a larger scope, what are some of the most important things to a user when they input a dataset and want to learn new things about that dataset
+
+Binned Chi2 has been used instead of ANOVA for categorical vs continuous
+--------------------------------------------------------------------------------------------------------------------------
+
+
+Using this program on data that contains things like names, addresses, etc. is not very useful
+The data is also assumed to be relatively normally distributed and that there is homoscedasticity, for ANOVA and maybe for others
+Also generally makes more sense to choose an intelligent target column, usually a numerical column. Binning is not perfect
+
+
+https://freedium.cfd/https://medium.com/@outside2SDs/an-overview-of-correlation-measures-between-categorical-and-continuous-variables-4c7f85610365#:~:text=The%20point%20biserial%20correlation%20is,a%20continuous%20and%20categorical%20variable.
+
+Understanding what causes variance in a given set of data
+For any type of predictive modeling, you want to only include the variables that uniquely explain some amount of variance
+
+In all these applications, it is likely that you will be comparing correlations between continuous, categorical and continuous-categorical pairs with each other and hence having a shared estimate of association between variable pairs is essential. One thing to note is that for all these applications while a statistical significance test of correlation between the two variables is helpful, it is far more important to quantify the association in a comparable manner i.e. have a comparabale 'goodness of fit' metric. (Medium)
+
+One way ANOVA explanation:
+A simple approach could be to group the continuous variable using the categorical variable, measure the variance in each group and comparing it to the overall variance of the continuous variable. If the variance after grouping falls down significantly, it means that the categorical variable can explain most of the variance of the continuous variable and so the two variables likely have a strong association. If the variables have no correlation, then the variance in the groups is expected to be similar to the original variance.
+
+Spearman's Correlation Coefficient is used instead of Pearsons because Spearman's is safer and accounts for the fact that some relationships are not linear, and could be exponential.
+
+Correlation is one of the most commonly used measures in business
+
+
+
+
+Figure out what to do with dates
+Run this program with different data sets
+	Find a data set that can be made so that all the columns make sense to check for correlation
+	Figure out what to do when there are null values and if that is for sure an issue
+	Can also consider using data parallelism if we assume that time will be a problem on some of these datasets that are large
+Consider adding explanations
+None and unable for Netflix
+
+Explanations
+Consider information that would be the most useful to user without knowledge
+Add positive and negative to outputs
+Testing aggregation added column
+
+
+Finding Best Data
+Data Must Be:
+
+Continuous and Categorical, with somewhat even amounts, both at least 4
+Columns cannot have more than 50 unique values
+Data has to be relevant so that the conclusion is easily understood by the audience
+Data has to be understandable so that the audience can understand without much explanation
