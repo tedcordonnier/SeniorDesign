@@ -7,6 +7,9 @@
 # Statistical Correlation Analysis and Automation Program
 Program Purpose: Find Correlation between target column and all other columns in a .csv file. Automates statistical tests of correlation as well as allowing any analyst to find association between all types of variables without extensive statistical experience.
 
+# Video
+https://www.youtube.com/watch?v=qxKKvvuDB_4
+
 # Table of Contents
 * [Project Description](ProjectDescription.md)
 * [User Stories](User_Stories_and_Design_Diagrams.pdf)
