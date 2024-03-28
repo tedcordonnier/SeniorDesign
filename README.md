@@ -5,22 +5,20 @@
 `Project Name: Automated Correlation Analysis`
 
 # Statistical Correlation Analysis and Automation Program
-Program Purpose: Find Correlation between target column and all other columns in a .csv file. Automates statistical tests of correlation as well as allowing any analyst to find association between all types of variables without extensive statistical experience.
+Project Description: Find Correlation between target column and all other columns in a .csv file. Automates statistical tests of correlation as well as allowing any analyst to find association between all types of variables without extensive statistical experience.
 
 # Video
 https://www.youtube.com/watch?v=qxKKvvuDB_4
 
 # Table of Contents
 * [Project Description](ProjectDescription.md)
-* [User Stories](User_Stories_and_Design_Diagrams.pdf)
-* Tasks and Timeline
-  * [Project Tasks](Task_Lists.md)
-  * [Project Timeline and Effort Matrix](Milestones_Timeline_Effort_Matrix.xlsx)
-* [Project Constraints](Project_Constraints.pdf)
-* [Powerpoint Slide Show](Fall_Presentation.pptx)
-* [Self-Assessment Essay](Individual_Capstone_Assesment.pdf)
-* [Professional Bio](ProfessionalBiography.md)
-* No Budget
+* [Test Plan](TestPlan.md)
+* [User Manual](UserDocs.md)
+* [Powerpoint Slide Show](Spring_Presentation_Presentation.pdf)
+* [Final Expo Poster](ExpoPoster.pdf)
+* [Self-Assessment Essay Fall](Individual_Capstone_Assesment.pdf)
+* [Self-Assessment Essay Spring](Individual_Capstone_Assesment.pdf)
+* No Expenses
 * [Appendix](appendix.md)
 
 
