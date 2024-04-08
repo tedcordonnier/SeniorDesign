@@ -13,7 +13,7 @@ https://www.youtube.com/watch?v=qxKKvvuDB_4
 # Table of Contents
 * [Project Description](ProjectDescription.md)
 * [Test Plan](SpringAssignments/TestPlan.md)
-* [User Manual](UserDocs.md)
+* [User Documentation](UserDocs.md)
 * [Powerpoint Slide Show](Spring_Presentation.pdf)
 * [Final Expo Poster](ExpoPoster.pdf)
 * [Self-Assessment Essay Fall](SpringAssignments/Self_Assessment_Fall.pdf)
