@@ -18,7 +18,9 @@ https://www.youtube.com/watch?v=qxKKvvuDB_4
 * [Final Expo Poster](ExpoPoster.pdf)
 * [Self-Assessment Essay Fall](Individual_Capstone_Assesment.pdf)
 * [Self-Assessment Essay Spring](Individual_Capstone_Assesment.pdf)
+* [Summary of Hours](Hours_Completed.xlsx)
 * No Expenses
 * [Appendix](appendix.md)
+* [Notes](Notes.txt)
 
 
