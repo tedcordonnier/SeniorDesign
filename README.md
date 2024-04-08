@@ -14,7 +14,7 @@ https://www.youtube.com/watch?v=qxKKvvuDB_4
 * [Project Description](ProjectDescription.md)
 * [Test Plan](TestPlan.md)
 * [User Manual](UserDocs.md)
-* [Powerpoint Slide Show](Spring_Presentation_Presentation.pdf)
+* [Powerpoint Slide Show](Spring_Presentation.pdf)
 * [Final Expo Poster](ExpoPoster.pdf)
 * [Self-Assessment Essay Fall](Individual_Capstone_Assesment.pdf)
 * [Self-Assessment Essay Spring](Individual_Capstone_Assesment.pdf)
