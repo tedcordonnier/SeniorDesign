@@ -13,7 +13,7 @@ Notes:
 
 Data: Source - Kaggle
 
-https://www.kaggle.com/datasets/fatemaislammeem/international-students
-https://www.kaggle.com/datasets/nelgiriyewithana/apple-quality
-https://www.kaggle.com/datasets/dhanasekarjaisankar/correlation-between-posture-personality-trait
+* https://www.kaggle.com/datasets/fatemaislammeem/international-students
+* https://www.kaggle.com/datasets/nelgiriyewithana/apple-quality
+* https://www.kaggle.com/datasets/dhanasekarjaisankar/correlation-between-posture-personality-trait
 
