@@ -21,6 +21,3 @@ https://www.youtube.com/watch?v=qxKKvvuDB_4
 * [Summary of Hours](Hours_Completed.xlsx)
 * No Expenses
 * [Appendix](appendix.md)
-* [Notes](Notes.txt)
-
-
