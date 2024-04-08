@@ -21,3 +21,7 @@ https://www.youtube.com/watch?v=qxKKvvuDB_4
 * [Summary of Hours](SpringAssignments/Hours_Completed.xlsx)
 * No Expenses
 * [Appendix](SpringAssignments/appendix.md)
+
+# Sample Output
+
+![image](https://github.com/tedcordonnier/SeniorDesign/assets/83316488/793e6e64-7050-40b9-816a-9210293900fd)
